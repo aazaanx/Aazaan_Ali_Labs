@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://dqfpl1pbvw2bd"]
+
+[ext_resource type="Texture2D" uid="uid://dccey7tg0736" path="res://Pictures/icon.svg" id="1_5avhu"]
+[ext_resource type="Texture2D" uid="uid://bkekfk1h6jq6u" path="res://Pictures/images.jpeg" id="2_coafa"]
+[ext_resource type="Texture2D" uid="uid://bmvcq1jbp07ci" path="res://Pictures/MonkeyPNG.png" id="3_qwdy4"]
+[ext_resource type="Texture2D" uid="uid://b305vov1n33k8" path="res://Pictures/Othermonkey.png" id="4_vkvuq"]
+
+[node name="Node2D" type="Node2D" unique_id=461475661]
+position = Vector2(189, -5)
+scale = Vector2(0.5, 0.5)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=839739564]
+position = Vector2(937.0044, 17.995605)
+scale = Vector2(6.781182, 6.781182)
+texture = ExtResource("1_5avhu")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=907616146]
+position = Vector2(-3, 8)
+rotation = 3.1415925
+scale = Vector2(290.4765, -29.640488)
+
+[node name="Images" type="Sprite2D" parent="." unique_id=982297095]
+position = Vector2(-103, 68)
+scale = Vector2(0.31858408, 0.31858408)
+texture = ExtResource("2_coafa")
+
+[node name="MonkeyPng" type="Sprite2D" parent="." unique_id=480935938]
+position = Vector2(224, 220)
+texture = ExtResource("3_qwdy4")
+
+[node name="Othermonkey" type="Sprite2D" parent="." unique_id=1567474186]
+position = Vector2(-116, 276.00003)
+scale = Vector2(0.440625, 0.45625)
+texture = ExtResource("4_vkvuq")
